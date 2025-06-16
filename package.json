@@ -12,7 +12,7 @@
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest",
-    "build": "tsup src"
+    "build": "tsup src --out-dir build"
   },
   "keywords": [],
   "author": "",
