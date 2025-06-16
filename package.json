@@ -12,7 +12,8 @@
     "knex": "node --import tsx ./node_modules/.bin/knex",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest",
-    "build": "tsup src --out-dir build"
+    "build": "tsup src --out-dir build",
+    "start": "mkdir -p db && node build/server.js"
   },
   "keywords": [],
   "author": "",
