@@ -125,3 +125,8 @@ npm i supertest -D
 
 //Ferramenta utilizada para transforma TS em JS
 npm i tsup -D
+
+
+
+# DEPLOY
+//Nessa aplicação, vou utilizar o Render para fazer o deploy
